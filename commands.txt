@@ -1,0 +1,62 @@
+Account ID: XXXXXXXX
+
+###VPC CIDR###
+172.31.0.0/16
+SUBNET CIDR
+172.31.0.0/25 sub-private-a
+172.31.0.128/25 sub-private-c
+172.31.1.0/25 sub-private-b
+172.31.1.128/25 sub-private-d
+
+###IAM ROLES###
+IAM role to EC2
+arn:aws:iam::XXXXXXXX:role/ec2-role
+arn:aws:iam::XXXXXXXX:instance-profile/ec2-role
+  Policy:
+    Managed Policies
+      EC2[*]
+      IAM[*]
+      AmazonEKSWorkerNodePolicy
+      AmazonEC2ContainerRegistryReadOnly
+      AmazonSSMFullAccess
+      AmazonEKS_CNI_Policy
+      AWSCloudFormationFullAccess
+    Inline Policies
+      EKS[*]
+      STS[*]
+      RAM[*]
+      AUTOSCALING[*]
+  
+IAM role to EKS
+arn:aws:iam::205172468134:role/eks-role
+  Policy
+    Managed Policies
+      EC2[*]
+      IAM[*]
+      AmazonEKSWorkerNodePolicy
+      AmazonEC2ContainerRegistryReadOnly
+      AmazonSSMFullAccess
+      AmazonEKS_CNI_Policy
+      AWSCloudFormationFullAccess
+    Inline Policies
+      EKS[*]
+      STS[*]
+      RAM[*]
+      AUTOSCALING[*]
+      
+	
+aws eks --region us-east-1 update-kubeconfig --name eks2
+./eksctl utils update-kube-proxy --cluster eks2 --approve
+./eksctl utils update-aws-node --cluster eks2 --approve
+./eksctl utils update-coredns --cluster eks2 --approve
+
+
+COMANDOS
+	###CRIAÇÃO DO CLUSTER
+	###HABILITA LOGS
+	###UPDATE PARA VERSÃO 1.15
+	./eksctl create cluster -f eks-create-cluster-template-1.yaml
+    ./eksctl update cluster -f eks-create-cluster-template-1.yaml --approve
+	
+
+
