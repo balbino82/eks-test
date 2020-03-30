@@ -1,0 +1,1000 @@
+   53  kubectl describe pod guestbook-7bhv8
+   54  kubectl get pods
+   55  kubectl describe pod guestbook-7bhv8
+   56  history | grep "kubectl apply"
+   57  kubectl apply --validate -f https://raw.githubusercontent.com/kubernetes/examples/master/guestbook-go/guestbook-controller.json
+   58  kubectl apply --validate -f https://raw.githubusercontent.com/kubernetes/examples/master/guestbook-go/guestbook-service.json
+   59  kubectl get pods
+   60  kubectl describe pod redis-master-dbhtj
+   61  kubectl get node
+   62  kubectl delete rc/redis-master rc/redis-slave rc/guestbook svc/redis-master svc/redis-slave svc/guestbook
+   63  kubectl get pods
+   64  kubectl get node
+   65  ./eksctl create nodegroup -f eks-create-cluster-template-1.yaml
+   66  ./eksctl delete nodegroup -f eks-create-cluster-template-1.yaml
+   67  ./eksctl delete nodegroup -f eks-create-cluster-template-1.yaml --approve
+   68  ./eksctl create nodegroup -f eks-create-cluster-template-1.yaml
+   69  ./eksctl create nodegroup -f eks-create-cluster-template-1.yaml
+   70  ls -l
+   71  kubectl get node
+   72  kubectl get node
+   73  kubectl get node
+   74  kubectl get pods -n kube-system -o wide
+   75  kubectl get pods -n kube-system -o wide
+   76  kubectl get pods -n kube-system -o wide
+   77  kubectl get nodes
+   78  kubectl describe node 
+   79  kubectl describe node
+   80  kubectl get nodes
+   81  kubectl describe node ip-172-31-0-149.ec2.internal
+   82  kubectl get nodes
+   83  kubectl describe node ip-172-31-1-98.ec2.internal
+   84  ./eksctl utils update-kube-proxy --name eks2 --approve
+   85  ./eksctl utils update-kube-proxy --cluster eks2 --approve
+   86  touch Makefile
+   87  vim Makefile 
+   88  ./eksctl utils update-kube-proxy --cluster eks2 --approve
+   89  ./eksctl utils update-aws-node --cluster eks2 --approve
+   90  ./eksctl utils update-coredns --cluster eks2 --approve
+   91  history
+   92  kubectl get nodes
+   93  kubectl delete node ip-172-31-0-149.ec2.internal
+   94  kubectl delete node ip-172-31-1-98.ec2.internal
+   95  kubectl get nodes
+   96  kubectl get nodes
+   97  kubectl get nodes
+   98  kubectl get nodes
+   99  kubectl get nodes
+  100  kubectl get nodes
+  101  kubectl get nodes
+  102  kubectl get pods -n kube-system -o wide
+  103  kubectl get pods -n kube-system -o wide
+  104  kubectl get pods -n kube-system -o wide
+  105  kubectl get nodes
+  106  kubectl get nodes
+  107  ./eksctl delete nodegroup -f eks-create-cluster-template-1.yaml --approve
+  108  kubectl get nodes
+  109  kubectl --help
+  110  history | grep "kube system"
+  111  history | grep "system"
+  112  kubectl get pods -n kube-system -o wide
+  113  kubectl get namespaces
+  114  kubectl describe namespaces default
+  115  kubectl describe namespaces kube-public
+  116  kubectl describe namespaces kube-system
+  117  kubectl get deployment
+  118  history | grep "system"
+  119  history | grep "delete
+  120  "
+  121  history | grep "delete cluster"
+  122  ./eksctl delete cluster -f eks-create-cluster-template-1.yaml 
+  123  ls
+  124  cp eks-create-cluster-template-1.yaml eks-create-cluster-ngs-template-1.yaml
+  125  vim eks-create-cluster-template-1.yaml 
+  126  cat eks-create-cluster-template-1.yaml 
+  127  vim eks-create-cluster-ngs-template-1.yaml 
+  128  history > comandos.txt
+  129  exit
+  130  cd ~/
+  131  awscli --version
+  132  sl -la
+  133  sl -a
+  134  ls -la
+  135  cd .aws
+  136  ls
+  137  cd ..
+  138  awscli configure
+  139  vim .aws/credentials 
+  140  history
+  141  cat eks-create-cluster-template-1.yaml 
+  142  cat eks-create-cluster-template-1.yaml 
+  143  cat eks-create-cluster-template-1.yaml 
+  144  cat eks-create-cluster-template-1.yaml 
+  145  vim eks-create-cluster-template-1.yaml 
+  146  vim eks-create-cluster-template-1.yaml 
+  147  vim eks-create-cluster-template-1.yaml 
+  148  ./eksctl create nodegroup -f eks-create-cluster-template-1.yaml 
+  149  vim eks-create-cluster-template-1.yaml 
+  150  vim eks-create-cluster-template-1.yaml 
+  151  ls -l
+  152  date
+  153  vim eks-create-cluster-template-1.yaml 
+  154  vim eks-create-cluster-template-1.yaml 
+  155  ./eksctl utils update-cluster-endpoints --name=eks2 --private-access=true --public-access=true
+  156  ./eksctl utils update-cluster-endpoints --cluster=eks2 --private-access=true --public-access=true --approve
+  157  vim eks-create-cluster-template-1.yaml 
+  158  vim eks-create-cluster-template-1.yaml 
+  159  vim eks-create-cluster-template-1.yaml 
+  160  vim eks-create-cluster-template-1.yaml 
+  161  cat eks-create-cluster-template-1.yaml 
+  162  vim eks-create-cluster-template-1.yaml 
+  163  ./eksctl get nodegroups
+  164  ./eksctl get nodegroups --cluster eks2
+  165  ./eksctl get nodegroups --cluster eks2
+  166  ./eksctl get nodegroups --cluster eks2
+  167  ls
+  168  vim eks-create-cluster-template-1.yaml 
+  169  exit
+  170  cd ~/*
+  171  cd ~/
+  172  cat acesso.json 
+  173  cat eks-create-cluster-ngs-template-1.yaml 
+  174  vim eks-create-cluster-ngs-template-1.yaml 
+  175  cat eks-create-cluster-template-1.yaml 
+  176  ls
+  177  vim eks-create-cluster-template-1.yaml 
+  178  cat eks-create-cluster-template-1.yaml 
+  179  cat eks-create-cluster-ngs-template-1.yaml 
+  180  vim eks-create-cluster-ngs-template-1.yaml 
+  181  cat eks-create-cluster-template-1.yaml 
+  182  vim eks-create-cluster-ngs-template-1.yaml 
+  183  cat eks-create-cluster-ngs-template-1.yaml 
+  184  vim eks-create-cluster-ngs-template-1.yaml 
+  185  vim eks-create-cluster-ngs-template-1.yaml 
+  186  vim eks-create-cluster-ngs-template-1.yaml 
+  187  kubectl get svc
+  188  ./eksctl get nodegroups
+  189  ./eksctl get nodegroups --cluster eks2
+  190  ./eksctl get nodes --cluster eks2
+  191  kubectl get service -o wide
+  192  kubectl get nodes
+  193  kubectl describe node ip-172-31-0-209.ec2.internal
+  194  kubectl get nodes
+  195  kubectl describe node ip-172-31-0-20.ec2.internal
+  196  kubectl get nodes
+  197  kubectl get nodes
+  198  kubectl get nodes
+  199  kubectl describe node ip-172-31-0-20.ec2.internal
+  200  kubectl describe node ip-172-31-0-20.ec2.internal --help
+  201  kubectl describe node --help
+  202  kubectl describe node ip-172-31-0-20.ec2.internal -l --show-events=true
+  203  kubectl describe node ip-172-31-0-20.ec2.internal
+  204  kubectl get nodes
+  205  ping ip-172-31-020.ec2.internal
+  206  ping ip-172-31-20.ec2.internal
+  207  ping ip-172-31-0-20.ec2.internal
+  208  ssh ec2-user@ ip-172-31-0-20.ec2.internal
+  209  ssh ec2-user@ip-172-31-0-20.ec2.internal
+  210  exit
+  211  cd ~/
+  212  ls
+  213  ls -l
+  214  vim eks-create-cluster-ngs-template-1.yaml 
+  215  cat eks-create-cluster-ngs-template-1.yaml 
+  216  vim eks-create-cluster-ngs-template-1.yaml 
+  217  ./eksctl get nodes
+  218  ./eksctl get nodegroups
+  219  ./eksctl get nodegroups --cluster eks2
+  220  kubectl get nodes
+  221  ping ip-172-31-0-104.ec2.internal
+  222  pwd
+  223  ls
+  224  touch key.pem
+  225  chmod 0600 key.pem 
+  226  ls -la
+  227  vim key.pem
+  228  kubectl get nods
+  229  kubectl get nodes
+  230  kubectl get nodes
+  231  kubectl get nodes
+  232  kubectl describe node ip-172-31-0-104.ec2.internal
+  233  pwd
+  234  ls
+  235  kubectl apply -f ENIConfig.yaml
+  236  cat ENIConfig.yaml
+  237  vim eks-create-cluster-ngs-template-1.yaml 
+  238  history
+  239  vim eks-create-cluster-ngs-template-1.yaml 
+  240  kubectl get nodes
+  241  ssh ec2-user@ip-172-31-0-138.ec2.internal -i key.pem
+  242  kubectl get nodes
+  243  kubectl describe node ip-172-31-0-138.ec2.internal
+  244  ls
+  245  ssh ec2-user@ip-172-31-0-138.ec2.internal -i key.pem
+  246  exit
+  247  cd ~/
+  248  ls 
+  249  ls -l
+  250  vim .aws/credentials 
+  251  history | grep assume
+  252  awscli sts assume-role --role-arn arn:aws:iam::205172468134:role/eks-role --role-session-name eks --duration-seconds 28800 > acesso.json
+  253  cat .aws/credentials 
+  254  cat acesso.json 
+  255  aws configure
+  256  vim .aws/credentials 
+  257  awscli ec2 describe-instances
+  258  ls
+  259  cat eks-create-cluster-template-1.yaml 
+  260  ifconfig
+  261  ./eksctl create cluster -f eks-create-cluster-template-1.yaml 
+  262  ./eksctl utils --help
+  263  ./eksctl update cluster --help
+  264  ./eksctl update cluster -f eks-create-cluster-template-1.yaml 
+  265  ./eksctl update cluster -f eks-create-cluster-template-1.yaml --approve
+  266  ./eksctl --help
+  267  ./eksctl utils --help
+  268  ./eksctl utils update-cluster-logging -f eks-create-cluster-template-1.yaml 
+  269  ./eksctl utils update-cluster-logging -f eks-create-cluster-template-1.yaml --approve
+  270  cat .kube/c
+  271  pwd
+  272  ls -la
+  273  history | grep "kubeconfig"
+  274  aws eks --region us-east-1 update-kubeconfig --name eks2
+  275  cat .kube/config 
+  276  kubectl get svc
+  277  kubectl get svc
+  278  ./eksctl create nodegroup -f eks-create-cluster-ngs-template-1.yaml 
+  279  ./eksctl create nodegroup -f eks-create-cluster-ngs-template-1.yaml 
+  280  ./eksctl create nodegroup -f eks-create-cluster-ngs-template-1.yaml 
+  281  ./eksctl create nodegroup -f eks-create-cluster-ngs-template-1.yaml 
+  282  kubectl get pods --all-namespaces
+  283  kubectl taint nodes --all node-role.kubernetes.io/master-
+  284  kubectl taint nodes --all node-role.kubernetes.io/master
+  285  kubectl get nodes
+  286  kubectl apply -f aws-k8s-cni.yaml
+  287  curl https://github.com/aws/amazon-vpc-cni-k8s/blob/master/config
+  288  wget https://github.com/aws/amazon-vpc-cni-k8s/blob/master/config
+  289  ls
+  290  wget https://github.com/aws/amazon-vpc-cni-k8s/blob/master/config/v1.6/aws-k8s-cni.yaml
+  291  ls
+  292  kubectl apply -f aws-k8s-cni.yaml
+  293  kubectl version
+  294  kubectl version --short --client
+  295  ls
+  296  rm -f aws-k8s-cni.yaml 
+  297  wget https://github.com/aws/amazon-vpc-cni-k8s/blob/master/config/v1.5/aws-k8s-cni.yaml
+  298  ls
+  299  vim aws-k8s-cni.yaml 
+  300  kubectl apply -f https://github.com/aws/amazon-vpc-cni-k8s/blob/master/config/v1.5/aws-k8s-cni.yaml
+  301  kubectl apply -f aws-k8s-cni.yaml
+  302  kubectl describe daemonset aws-node --namespace kube-system | grep Image | cut -d "/" -f 2
+  303  kubectl set env daemonset aws-node -n kube-system AWS_VPC_K8S_CNI_CUSTOM_NETWORK_CFG=true
+  304  touch ENIConfig.yaml 
+  305  vim ENIConfig.yam
+  306  vim ENIConfig.yaml
+  307  kubectl apply -f ENIConfig.yaml 
+  308  history | grep "eksctl create node"
+  309  ./eksctl delete nodegroup -f eks-create-cluster-ngs-template-1.yaml 
+  310  ./eksctl delete nodegroup -f eks-create-cluster-ngs-template-1.yaml --approve
+  311  kubectl get env
+  312  kubectl get help
+  313  kubectl get --help
+  314  kubectl get daemonset
+  315  kubectl set env
+  316  kubectl set env daemonset aws-node -n kube-system AWS_VPC_K8S_CNI_CUSTOM_NETWORK_CFG=true
+  317  kubectl describe daemonset aws-node --namespace kube-system | grep Image | cut -d "/" -f 2
+  318  kubectl describe daemonset
+  319  kubectl describe daemonset aws-node
+  320  kubectl describe daemonset aws-node --namespace kube-system
+  321  kubectl describe daemonset aws-node --namespace kube-system | grep Image
+  322  kubectl describe daemonset aws-node --namespace kube-system | grep Image | cut -d "/" -f 1
+  323  kubectl describe daemonset aws-node --namespace kube-system | grep Image | cut -d "/" -f 2
+  324  ./eksctl create nodegroup -f eks-create-cluster-ngs-template-1.yaml --approve
+  325  ./eksctl create nodegroup -f eks-create-cluster-ngs-template-1.yaml
+  326  ./eksctl delete nodegroup -f eks-create-cluster-ngs-template-1.yaml --approve
+  327  ./eksctl create nodegroup -f eks-create-cluster-ngs-template-1.yaml
+  328  ./eksctl create nodegroup -f eks-create-cluster-ngs-template-1.yaml
+  329  history | grep ssh
+  330  ssh ec2-user@ip-172-31-0-104.ec2.internal -i key.pem 
+  331  history | grep "set env"
+  332  kubectl set env daemonset aws-node -n kube-system AWS_VPC_K8S_CNI_CUSTOM_NETWORK_CFG=true
+  333  kubectl describe daemonset aws-node -n kube-system | grep -A5 Environment
+  334  kubectl describe daemonset aws-node -n kube-system | grep -A5 Environment
+  335  kubectl apply -f https://raw.githubusercontent.com/aws/amazon-vpc-cni-k8s/master/config/v1.5/aws-k8s-cni.yaml
+  336  kubectl get pods -n kube-system -w
+  337  kubectl get pods -n kube-system -w
+  338  kubectl apply -f https://raw.githubusercontent.com/aws/amazon-vpc-cni-k8s/master/config/v1.5/aws-k8s-cni.yaml
+  339  kubectl describe daemonset aws-node -n kube-system | grep -A5 Environment
+  340  kubectl describe daemonset aws-node -n kube-system
+  341  kubectl describe daemonset aws-node -n kube-system
+  342  kubectl describe daemonset aws-node -n kube-system
+  343  history | grep ssh
+  344  ssh ec2-user@ip-172-31-0-104.ec2.internal -i key.pem 
+  345  kubectl describe daemonset aws-node -n kube-system | grep -A5 Environment
+  346  history | grep cni
+  347  kubectl apply -f https://raw.githubusercontent.com/aws/amazon-vpc-cni-k8s/master/config/v1.5/calico.yaml
+  348  kubectl apply -f https://raw.githubusercontent.com/aws/amazon-vpc-cni-k8s/master/config/v1.5/aws-k8s-cni.yaml
+  349  kubectl set env daemonset aws-node -n kube-system AWS_VPC_K8S_CNI_CUSTOM_NETWORK_CFG=true
+  350  kubectl describe daemonset aws-node -n kube-system | grep -A5 Environment
+  351  kubectl apply -f https://raw.githubusercontent.com/aws/amazon-vpc-cni-k8s/master/config/v1.5/calico.yaml
+  352  kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
+  353  kubectl get nodes
+  354  ./eksctl delete nodegroups -f eks-create-cluster-ngs-template-1.yaml 
+  355  ./eksctl delete nodegroup -f eks-create-cluster-ngs-template-1.yaml 
+  356  ./eksctl delete nodegroup -f eks-create-cluster-ngs-template-1.yaml --approve
+  357  kubectl get pod -n kube-system -l k8s-app=kube-dns
+  358   eks-create-cluster-ngs-template-1.yaml 
+  359  history
+  360  kubectl describe daemonset aws-node -n kube-system | grep Image | cut -d "/" -f 2
+  361  kubectl apply -f https://raw.githubusercontent.com/aws/amazon-vpc-cni-k8s/release-1.5/config/v1.5/aws-k8s-cni.yaml
+  362  cat eks-create-cluster-
+  363  cat eks-create-cluster-ngs-template-1.yaml 
+  364  kubectl describe daemonset aws-node -n kube-system | grep -A5 Environment
+  365  ./eksctl create nodegroup -f eks-create-cluster-ngs-template-1.yaml
+  366  ./eksctl delete nodegroup -f eks-create-cluster-ngs-template-1.yaml --approve
+  367  ./eksctl delete cluster -f eks-create-cluster-template-1.yaml --approve
+  368  ./eksctl delete cluster -f eks-create-cluster-template-1.yaml
+  369  ./eksctl create cluster -f eks-create-cluster-template-1.yaml
+  370  ./eksctl update cluster -f eks-create-cluster-template-1.yaml --approve
+  371  ./eksctl get nodegroups
+  372  cd .kube/
+  373  ls
+  374  mv config old.config
+  375  cd ..
+  376  history | grep "update kube"
+  377  history | grep "kubeconfig"
+  378  aws eks --region us-east-1 update-kubeconfig --name eks2
+  379  vim .aws/credentials 
+  380  history | grep assume
+  381  awscli sts assume-role --role-arn arn:aws:iam::205172468134:role/eks-role --role-session-name eks --duration-seconds 28800 > acesso.json
+  382  cat acesso.json 
+  383  aws configure
+  384  vim .aws/credentials
+  385  aws eks --region us-east-1 update-kubeconfig --name eks3
+  386  cat .kube/config
+  387  ./eksctl get nodegroups
+  388  ./eksctl get nodegroups --cluster eks3
+  389  kubectl get nodes
+  390  kubectl get nodes
+  391  kubectl describe node ip-172-31-1-188.ec2.internal
+  392  kubectl get nodes
+  393  aws eks list-nodegroups
+  394  aws eks list-nodegroups --clustername eks3
+  395  aws eks list-nodegroups --cluster-name eks3
+  396  aws eks list-nodegroups --cluster-name eks3
+  397  aws eks describe-nodegroup -name ng1 --cluster-name eks3
+  398  aws eks describe-nodegroup --nodegroup-name ng1 --cluster-name eks3
+  399  history
+  400  aws eks describe-cluster --name eks3
+  401  kubectl get nodes --watch
+  402  kubectl get nodes
+  403  ssh ec2-user@ip-172-31-0-161.ec2.internal -i key.pem 
+  404  ls
+  405  mkdir guestbook-application-example
+  406  cd guestbook-application-example/
+  407  touch Makefile
+  408  wget https://raw.githubusercontent.com/kubernetes/examples/master/guestbook-go/redis-master-controller.json
+  409  ls
+  410  cat redis-master-controller.json 
+  411  vim Makefile 
+  412  cat
+  413  cat Makefile 
+  414  make getAll
+  415  vim Makefile 
+  416  make getAll
+  417  make deployYaml
+  418  vim Makefile 
+  419  cat Makefile 
+  420  make getAll
+  421  make getAll
+  422  ping 10.100.185.160
+  423  telnet 172.31.0.183 3000
+  424  yum install telnet -y
+  425  telnet 172.31.0.183 3000
+  426  make getAll
+  427  curl http://172.31.0.183:3000
+  428  curl http://ad903e47bb7844c41a6a3f00e7a275f5-1555454429.us-east-1.elb.amazonaws.com:3000
+  429  curl http://ad903e47bb7844c41a6a3f00e7a275f5-1555454429.us-east-1.elb.amazonaws.com:3000
+  430  curl http://ad903e47bb7844c41a6a3f00e7a275f5-1555454429.us-east-1.elb.amazonaws.com:3000/
+  431  kubectl get services -o wide
+  432  history | grep ssh
+  433  curl http://ad903e47bb7844c41a6a3f00e7a275f5-1555454429.us-east-1.elb.amazonaws.com:3000
+  434  ls
+  435  cat Makefile 
+  436  make getAll
+  437  kubectl describe service guestbook
+  438  ls
+  439  cat Makefile 
+  440  curl https://raw.githubusercontent.com/kubernetes/examples/master/guestbook-go/redis-master-service.json
+  441  wget https://raw.githubusercontent.com/kubernetes/examples/master/guestbook-go/redis-master-service.json
+  442  cat Makefile 
+  443  cat Makefile | grep https
+  444  wget https://raw.githubusercontent.com/kubernetes/examples/master/guestbook-go/redis-slave-controller.json
+  445  ls
+  446  wget https://raw.githubusercontent.com/kubernetes/examples/master/guestbook-go/redis-slave-service.json
+  447  wget https://raw.githubusercontent.com/kubernetes/examples/master/guestbook-go/guestbook-controller.json
+  448  wget https://raw.githubusercontent.com/kubernetes/examples/master/guestbook-go/guestbook-service.json]
+  449  wget https://raw.githubusercontent.com/kubernetes/examples/master/guestbook-go/guestbook-service.json
+  450  ls
+  451  ls -l
+  452  cat guestbook-controller.json 
+  453  cat guestbook-service.json 
+  454  ls
+  455  cat Makefile 
+  456  make deleteSolution
+  457  make getAll
+  458  make getAll
+  459  cd ..
+  460  ls
+  461  cp eks-create-cluster-ngs-template-1.yaml eks-create-cluster-managed-ng-template-1.yaml
+  462  git
+  463  yum search git
+  464  yum install git
+  465  git
+  466  git --version
+  467  git config --global user.name "balbino82"
+  468  git config --global user.name
+  469  git config --global user.email "rodrigo.balbino.82@gmail.com"
+  470  git config --global --list
+  471  ls
+  472  cd guestbook-application-example/
+  473  ls
+  474  cd ..
+  475  ls
+  476  vim eks-create-cluster-managed-ng-template-1.yaml
+  477  ls
+  478  cat eks-create-cluster-managed-ng-template-1.yaml
+  479  ./eksctl create nodegroup -f eks-create-cluster-managed-ng-template-1.yaml 
+  480  vim eks-create-cluster-managed-ng-template-1.yaml
+  481  ./eksctl create nodegroup -f eks-create-cluster-managed-ng-template-1.yaml 
+  482  awscli eks
+  483  awscli eks describe-nodegroup --cluster-name eks3 --nodegroup-name ng2
+  484  ls
+  485  mkdir templates
+  486  mv *.yaml templates/
+  487  ls
+  488  ls -l
+  489  cat Makefile 
+  490  rm -f Makefile 
+  491  ls -l
+  492  cat config 
+  493  vim co
+  494  vim config 
+  495  rm -f config 
+  496  ls -l
+  497  cat pre-install-tools-linux.txt 
+  498  cat pre-install-tools-linux.txt | grep alias
+  499  cat pre-install-tools-linux.txt | grep python
+  500  cat pre-install-tools-linux.txt | grep python
+  501  ls
+  502  touch Makefile
+  503  vim m
+  504  vim Makefile 
+  505  cat Makefile 
+  506  make
+  507  vim Makefile 
+  508  history | grep alias
+  509  vim Makefile
+  510  make
+  511  vim Makefile 
+  512  make
+  513  vim Makefile 
+  514  cat .bashrc 
+  515  cat Makefile 
+  516  cat .bash_profile 
+  517  make
+  518  aws version
+  519  aws --version
+  520  cat Makefile 
+  521  find / -name awscli
+  522  vim Makefile 
+  523  cat Makefile 
+  524  make
+  525  cd /root/.local/lib/python3.7/site-packages/
+  526  ls
+  527  cd awscli
+  528  ls
+  529  vim Makefile 
+  530  cd ~/
+  531  ls
+  532  vim Makefile 
+  533  make
+  534  vim Makefile 
+  535  make
+  536  kubectl get nods
+  537  kubectl get nodes
+  538  kubectl get nodegroups
+  539  kubectl get nodegroup
+  540  awscli eks describe-nodegroup --cluster-name eks3 --nodegroup-name ng3
+  541  awscli eks describe-nodegroup --cluster-name eks3 --nodegroup-name ng2
+  542  awscli eks describe-nodegroup --cluster-name eks3 --nodegroup-name ng3
+  543  awscli eks describe-nodegroup --cluster-name eks3 --nodegroup-name ng3
+  544  awscli eks describe-nodegroup --cluster-name eks3 --nodegroup-name ng2
+  545  kubectl get nodes
+  546  at Makefile 
+  547  cat Makefile 
+  548  vim Makefile 
+  549  awscli eks delete-nodegroup --cluster-name eks3 --nodegroup-name ng2
+  550  vim Makefile 
+  551  cat Makefile 
+  552  kubectl get nodes
+  553  ls
+  554  vim pre-install-tools-linux.txt 
+  555  vim pre-install-tools-linux.txt 
+  556  mkdir commands
+  557  mv pre-install-tools-linux.txt commands/
+  558  ls
+  559  ls
+  560  vim comandos.txt 
+  561  rm -f comandos.txt 
+  562  ls
+  563  cat Makefile 
+  564  docker
+  565  sudo yum install docker -y
+  566  service docker start
+  567  service docker status
+  568  docker images
+  569  docker pull hello-world
+  570  docker images
+  571  docker describe image hello-world
+  572  docker --help
+  573  docker images --help
+  574  docker run hello-world
+  575  docker run -it hello-world
+  576  docker run -it hello-world bash
+  577  docker run hello-world
+  578  ls
+  579  ls
+  580  mkdir docker-images
+  581  cd docker-images/
+  582  aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 205172468134.dkr.ecr.us-east-1.amazonaws.com/eks-test
+  583  awscli ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 205172468134.dkr.ecr.us-east-1.amazonaws.com/eks-test
+  584  cd ~/.docker/
+  585  ls
+  586  cat config.json 
+  587  docker images
+  588  cd ..
+  589  docker tag --help
+  590  docker tag hello-world:latest 205172468134.dkr.ecr.us-east-1.amazonaws.com/eks-test:latest
+  591  docker push --help
+  592  docker iamges
+  593  docker images
+  594  docker push 205172468134.dkr.ecr.us-east-1.amazonaws.com/eks-test:latest
+  595  docker images
+  596  docker images --help
+  597  docker --help
+  598  docker images
+  599  docker image --help
+  600  docker image rm 205172468134.dkr.ecr.us-east-1.amazonaws.com/eks-test
+  601  docker images
+  602  docker push --help
+  603  docker --help
+  604  docker build -t hello-world .
+  605  docker inspect hello-world
+  606  docker build -t hello-world .
+  607  touch Dockerfile
+  608  vim Dockerfile
+  609  cat Dockerfile 
+  610  docker build -t hello-world .
+  611  vim Dockerfile
+  612  docker build -t hello-world .
+  613  docker push --help
+  614  docker push hello-world:latest 205172468134.dkr.ecr.us-east-1.amazonaws.com/eks-test:latest
+  615  docker push hello-world 205172468134.dkr.ecr.us-east-1.amazonaws.com/eks-test:latest
+  616  docker images
+  617  docker push 205172468134.dkr.ecr.us-east-1.amazonaws.com/hello-world:latest
+  618  ls
+  619  docker tag hello-world:latest 205172468134.dkr.ecr.us-east-1.amazonaws.com/hello-world:latest
+  620  docker images
+  621  docker push 205172468134.dkr.ecr.us-east-1.amazonaws.com/hello-world:latest
+  622  docker push 205172468134.dkr.ecr.us-east-1.amazonaws.com/eks-test:latest
+  623  docke images
+  624  docker images
+  625  docker push 205172468134.dkr.ecr.us-east-1.amazonaws.com/eks-test:latest
+  626  docker images
+  627  history | grep "docker image"
+  628  docker image 205172468134.dkr.ecr.us-east-1.amazonaws.com/hello-world
+  629  docker image rm 205172468134.dkr.ecr.us-east-1.amazonaws.com/hello-world
+  630  docke images
+  631  docker images
+  632  docker tag hello-world 205172468134.dkr.ecr.us-east-1.amazonaws.com/eks-test
+  633  docker images
+  634  docker push 205172468134.dkr.ecr.us-east-1.amazonaws.com/eks-test
+  635  docker pull 205172468134.dkr.ecr.us-east-1.amazonaws.com/eks-test:latest
+  636  history | grep "docker image rm"
+  637  docker images
+  638  docker image rm 205172468134.dkr.ecr.us-east-1.amazonaws.com/eks-test
+  639  docker pull 205172468134.dkr.ecr.us-east-1.amazonaws.com/eks-test:latest
+  640  docker images
+  641  l
+  642  ls
+  643  cd guestbook-application-example/
+  644  ls
+  645  cd ..
+  646  mkdir app-example
+  647  cd app-example/
+  648  git clone https://github.com/YOURUSER/k8s-config.git
+  649  git clone https://github.com/balbino82/k8s-config.git
+  650  cd ../guestbook-application-example/
+  651  ls
+  652  cat guestbook-controller.json 
+  653  cd ../app-example/
+  654  touch deployment.yaml
+  655  vim deployment.yaml
+  656  ls
+  657  cat deployment.yaml 
+  658  ls
+  659  vim deployment.yaml
+  660  kubectl apply -f deployment.yaml 
+  661  cat deployment.yaml 
+  662  kubectl describe deployment app-test
+  663  kubectl describe deployment app-test
+  664  kubectl get pods -l app=apptest
+  665  kubectl delete deployment app-test
+  666  kubectl get pods -l app=apptest
+  667  docker pull nginx
+  668  docker images
+  669  touch index.html
+  670  vim index.html
+  671  touch Dockerfile
+  672  vim Dockerfile 
+  673  cat Dockerfile 
+  674  ls
+  675  cat deployment.yaml 
+  676  mv deployment.yaml ../
+  677  ls
+  678  cd ..
+  679  ls
+  680  cat deployment.yaml 
+  681  cd app-example/
+  682  ls
+  683  cat Dockerfile 
+  684  docker build --help
+  685  docker build -t some-content-nginx .
+  686  vim Dockerfile 
+  687  cat Dockerfile 
+  688  ls
+  689  docker build -t some-content-nginx .
+  690  docker images
+  691  docker image rm some-content-nginx
+  692  docker images
+  693  docker build -t nginx-test-balbino .
+  694  cd html/
+  695  ls
+  696  cat index.html 
+  697  cd ..
+  698  ls
+  699  docker images
+  700  docker run --name nginx-test-balbino -d web-app-test-balbino
+  701  docker run --name web-app-test -d nginx-test-balbino
+  702  docker run --name some-nginx -d -p 8080:80 some-content-nginx
+  703  curl http://localhost
+  704  netstat -ntpl
+  705  docker ps -a
+  706  docker stop --help
+  707  docker stop b08
+  708  docker ps -a
+  709  docker ps
+  710  docker run --name web-app-test -d nginx-test-balbino -p 8080:80
+  711  docker ps -a
+  712  docker remove b082087d6461
+  713  docker --help
+  714  docker rm b082087d6461
+  715  docker ps -a
+  716  docker run --name web-app-test -d nginx-test-balbino -p 8080:80
+  717  docker run --name web-app-test -d -p 8080:80 nginx-test-balbino
+  718  docker ps
+  719  docker ps -a
+  720  docker rm 1f7d18e550ab
+  721  docker run --name web-app-test -d -p 8080:80 nginx-test-balbino
+  722  docker ps -a
+  723  curl http://localhost
+  724  iptables -L
+  725  ifconfig
+  726  docker ps
+  727  telnet 0.0.0.0 80
+  728  telnet 0.0.0.0 8080[B
+  729  curl http://localhost:8080
+  730  netstat -ntpl
+  731  ifconfig
+  732  ls
+  733  cat Dockerfile 
+  734  docker ps
+  735  docker ps
+  736  docker stop 2e0783289d6e
+  737  docker ps
+  738  docker ps -a
+  739  docker rm 2e0783289d6e
+  740  docker ps -a
+  741  ls
+  742  history | grep build
+  743  vim Dockerfile 
+  744  netstat -ntpl
+  745  docker build -t nginx-test-balbino .
+  746  docker images
+  747  history | grep "docker run"
+  748  docker run --name web-app-test -d nginx-test-balbino
+  749  docker ps
+  750  curl http://localhost
+  751  netstat -ntpl
+  752  docker run -it 7400bd8b86f6 bash
+  753  docker ps
+  754  docker exec -it 7400bd8b86f6 /bin/bash
+  755  docker ps
+  756  docker stop 7400bd8b86f6
+  757  docker rm 7400bd8b86f6
+  758  history
+  759  ls
+  760  cp ../deployment.yaml .
+  761  ls
+  762  cat deployment.yaml 
+  763  ls
+  764  history | grep "docker push"
+  765  history | grep "docker tag"
+  766  docker images
+  767  history | grep "docker build"
+  768  docker build -t nginx-test-balbino .
+  769  cat Dockerfile 
+  770  history | grep "docker tag"
+  771  docker images
+  772  docker tag nginx-test-balbino 205172468134.dkr.ecr.us-east-1.amazonaws.com/eks-test
+  773  history | grep "docker push"
+  774  docker push 205172468134.dkr.ecr.us-east-1.amazonaws.com/eks-test
+  775  docker tag nginx-test-balbino 205172468134.dkr.ecr.us-east-1.amazonaws.com/eks-test:latest
+  776  docker push 205172468134.dkr.ecr.us-east-1.amazonaws.com/eks-test:latest
+  777  vim deployment.yaml 
+  778  cat Dockerfile 
+  779  history | grep "docker run"
+  780  vim deployment.yaml 
+  781  cat deployment.yaml 
+  782  kubectl apply -f deployment.yaml 
+  783  kubectl describe deployment app-test
+  784  kubectl get nods
+  785  kubectl get nodes
+  786  kubectl describe deployment app-test
+  787  kubectl describe deployment app-test
+  788  cat deployment.yaml 
+  789  vim deployment.yaml 
+  790  kubectl apply -f deployment.yaml 
+  791  kubectl describe deployment app-test
+  792  kubectl get pods
+  793  kubectl describe pod app-test-6f97d9f79b-7cbgx
+  794  kubectl delete deployment app-test
+  795  kubectl get deployment app-test
+  796  history | grep "docker push"
+  797  docker push 205172468134.dkr.ecr.us-east-1.amazonaws.com/eks-test:latest
+  798  docker push 205172468134.dkr.ecr.us-east-1.amazonaws.com/eks-test:latest
+  799  history | grep "kubectl app"
+  800  kubectl apply -f deployment.yaml 
+  801  kubectl get deployments
+  802  kubectl describe deployments app-test
+  803  kubectl describe deployment app-test
+  804  kubectl describe deployment app-test
+  805  kubectl get pods
+  806  kubectl get pods
+  807  kubectl describe pod app-test-6f97d9f79b-725r2
+  808  ls
+  809  touch service.yaml
+  810  ls
+  811  cat deployment.yaml 
+  812  vim service.yaml 
+  813  history | grep "kubectl delete deploy"
+  814  kubectl delete deployment app-test
+  815  vim deployment.yaml 
+  816  ls
+  817  vim service.yaml 
+  818  rm -f service.yaml 
+  819  ls
+  820  history | grep deployment
+  821  cat deployment.yaml 
+  822  kubectl get pods
+  823  cat deployment.yaml 
+  824  history | grep deployment
+  825  kubectl apply -f deployment.yaml 
+  826  kubectl get deployments
+  827  kubectl describe deployment apptest
+  828  kubectl expose deployment/apptestku
+  829  ls
+  830  kubectl get svc apptest
+  831  kubectl describe svc apptest
+  832  kubectl get ep apptest
+  833  ls
+  834  touch service.yaml
+  835  vim service.yaml 
+  836  cat service.yaml 
+  837  kubectl get services -o wide
+  838  kubectl describe service apptest
+  839  cat service.yaml 
+  840  vim service.yaml 
+  841  history | grep expose
+  842  kubectl delete service apptest
+  843  kubectl get services -o wide
+  844  ls
+  845  vim service.yaml
+  846  mv service.yaml nodeport.yaml
+  847  vim nodeport.yaml 
+  848  cp nodeport.yaml service.yaml
+  849  vim nodeport.yaml
+  850  vim nodeport.yaml
+  851  kubectl create -f nodeport.yaml 
+  852  kubectl get service apptest
+  853  kubectl get nodes -o wide |  awk {'print $1" " $2 " " $7'} | column -t
+  854  kubectl delete service apptest
+  855  kubectl get service apptest
+  856  vim service.yaml 
+  857  kubectl create -f service.yaml 
+  858  kubectl describe service apptest
+  859  kubectl get service/nginx-service |  awk {'print $1" " $2 " " $4 " " $5'} | column -t
+  860  kubectl get service/nginx-service |  awk {'print $1" " $2 " " $4 " " $5'} | column -t
+  861  kubectl get service/apptest |  awk {'print $1" " $2 " " $4 " " $5'} | column -t
+  862  cat deployment.yaml 
+  863  kubectl get pods
+  864  kubectl get pods -o wide
+  865  curl http://172.31.0.204:80/
+  866  curl http://172.31.0.159:80/
+  867  curl http://172.31.0.159
+  868  kubectl get pods -o wide
+  869  kubectl get service apptest
+  870  curl http://abd1a120893244fa8876b492329d7ac8-2707826aeebfc24d.elb.us-east-1.amazonaws.com:31646
+  871  curl http://abd1a120893244fa8876b492329d7ac8-2707826aeebfc24d.elb.us-east-1.amazonaws.com:80
+  872  telnet abd1a120893244fa8876b492329d7ac8-2707826aeebfc24d.elb.us-east-1.amazonaws.com 80
+  873  telnet abd1a120893244fa8876b492329d7ac8-2707826aeebfc24d.elb.us-east-1.amazonaws.com 31646
+  874  cat ../guestbook-application-example/guestbook-service.json 
+  875  kubectl get nodes
+  876  telnet ip-172-31-0-170.ec2.internal 80
+  877  telnet ip-172-31-0-170.ec2.internal 22
+  878  telnet ip-172-31-0-170.ec2.internal 31646
+  879  curl http://ip-172-31-0-170.ec2.internal:31646
+  880  cat ../guestbook-application-example/redis-master-service.json 
+  881  cat ../guestbook-application-example/redis-slave-service.json 
+  882  cat ../guestbook-application-example/guestbook-controller.json 
+  883  cat ../guestbook-application-example/guestbook-service.json 
+  884  ls
+  885  cat service.yaml 
+  886  ls
+  887  cat Dockerfile 
+  888  vim Dockerfile
+  889  history | grep build
+  890  docker build -t nginx-test-balbino:v2 .
+  891  docker images
+  892  history | grep tag
+  893  docker tag nginx-test-balbino:v2 205172468134.dkr.ecr.us-east-1.amazonaws.com/eks-test:v2
+  894  history | grep push
+  895  docker push 205172468134.dkr.ecr.us-east-1.amazonaws.com/eks-test:v2
+  896  ls
+  897  vim deployment.yaml 
+  898  cat deployment.yaml 
+  899  docker images
+  900  docker inspect image nginx-test-balbino:v2
+  901  docker images
+  902  cat Dockerfile 
+  903  kubectl get services -o wide
+  904  curl http://abd1a120893244fa8876b492329d7ac8-2707826aeebfc24d.elb.us-east-1.amazonaws.com
+  905  ping abd1a120893244fa8876b492329d7ac8-2707826aeebfc24d.elb.us-east-1.amazonaws.com
+  906  kubectl get services -o wide
+  907  kubectl delete service apptest
+  908  kubectl get services -o wide
+  909  kubectl delete deployments apptest
+  910  kubectl delete deployment apptest
+  911  kubectl get pods
+  912  kubectl get nodes
+  913  cat deployment.yaml 
+  914  cat ../guestbook-application-example/guestbook-service.json 
+  915  vim service.yaml 
+  916  cat service.yaml 
+  917  vim service.yaml 
+  918  cat deployment.yaml 
+  919  kubectl apply -f deployment.yaml 
+  920  kubectl get deployments
+  921  kubectl get deployments
+  922  kubectl get deployments
+  923  kubectl describe deployment apptest
+  924  kubectl describe deployment apptest
+  925  kubectl get pods
+  926  kubectl apply -f service.yaml 
+  927  kubectl get services -o wide
+  928  curl http://ip-172-31-0-170.ec2.internal:30835
+  929  curl http://ip-172-31-0-170.ec2.internal:30835
+  930  curl http://ip-172-31-0-170.ec2.internal:10256
+  931  kubectl get pods
+  932  kubectl describe pod apptest-75cb85cfdc-469bt
+  933  kubectl delete service apptest
+  934  kubectl delete deployment apptest
+  935  vim deployment.yaml 
+  936  cat ../guestbook-application-example/guestbook-service.json 
+  937  cat deployment.yaml 
+  938  vim deployment.yaml 
+  939  vim deployment.yaml 
+  940  vim deployment.yaml 
+  941  docker get services -o wide
+  942  kubectl get services -o wide
+  943  kubectl get services -o wirde
+  944  kubectl get services -o wide
+  945  d ..
+  946  cd ..
+  947  cat acesso.json 
+  948  date
+  949  exit
+  950  cd ~/
+  951  cat eks-create-cluster-template-1.yaml 
+  952  cat eks-create-cluster-ngs-template-1.yaml 
+  953  ls
+  954  vim eks-create-cluster-template-1.yaml 
+  955  vim eks-create-cluster-template-1.yaml 
+  956  vim eks-create-cluster-ngs-template-1.yaml
+  957  vim eks-create-cluster-template-1.yaml 
+  958  kubectl get nodes
+  959  ssh ec2-user@ip-172-31-0-161.ec2.internal -i key.pem 
+  960  ssh ec2-user@ip-172-31-0-170.ec2.internal -i key.pem 
+  961  ls
+  962  cd guestbook-application-example/
+  963  ls
+  964  ls
+  965  cat guestbook-service.json 
+  966  cat guestbook-controller.json 
+  967  cd ../app-example/
+  968  ls
+  969  mkdir html
+  970  mv index.html html/
+  971  ls -l
+  972  pwd
+  973  ssh ec2-user@ip-172-31-0-170.ec2.internal -i key.pem 
+  974  ssh ec2-user@ip-172-31-0-170.ec2.internal -i key.pem 
+  975  cd ..
+  976  ssh ec2-user@ip-172-31-0-170.ec2.internal -i key.pem 
+  977  ls
+  978  cd app-example/
+  979  ls
+  980  cat deployment.yaml 
+  981  kubectl describe deployment app-test
+  982  kubectl get pods -l app=apptest -o wide
+  983  cd ../guestbook-application-example/
+  984  ls
+  985  cat guestbook-service.json 
+  986  cat guestbook-controller.json 
+  987  grep 31595 *
+  988  ls
+  989  cat guestbook-service.json 
+  990  cd ls
+  991  cat guestbook-controller.json 
+  992  cat guestbook-service.json 
+  993  cat guestbook-service.json 
+  994  ls
+  995  cat Makefile 
+  996  ssh ec2-user@ip-172-31-0-170.ec2.internal -i key.pem 
+  997  cd ..
+  998  ssh ec2-user@ip-172-31-0-170.ec2.internal -i key.pem 
+  999  exit
+ 1000  cd /~
+ 1001  cd ~/
+ 1002  ls -la
+ 1003  ls -l
+ 1004  cd commands/
+ 1005  ls
+ 1006  cat pre-install-tools-linux.txt 
+ 1007  cd ..
+ 1008  history
+ 1009  ls
+ 1010  cat Makefile 
+ 1011  cat Dockerfile 
+ 1012  pe
+ 1013  pwd
+ 1014  ls
+ 1015  cd templates
+ 1016  ls
+ 1017  cd ..
+ 1018  git clone https://github.com/balbino82/eks-test.git
+ 1019  ls
+ 1020  cp -R templates eks-test/
+ 1021  cd eks-test/
+ 1022  ls
+ 1023  cd templates/
+ 1024  ls
+ 1025  cd ..
+ 1026  cd ..
+ 1027  cp -R guestbook-application-example eks-test/
+ 1028  cp -R app-example eks-test/
+ 1029  cd docker-images/
+ 1030  ls
+ 1031  cd ..
+ 1032  rm -rf docker-images
+ 1033  ls
+ 1034  ls
+ 1035  cd guestbook-application-example/
+ 1036  ls -la
+ 1037  cat Makefile 
+ 1038  ls
+ 1039  cd ..
+ 1040  ls
+ 1041  cat Makefile 
+ 1042  cd app-example/
+ 1043  ls
+ 1044  cd ..
+ 1045  cp Makefile app-example/
+ 1046  ls
+ 1047  pwd
+ 1048  pwd
+ 1049  ls
+ 1050  history
+ 1051  history | commands2.txt
+ 1052  history > commands2.txt

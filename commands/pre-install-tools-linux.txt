@@ -1,0 +1,72 @@
+    1  pwd
+    2  ls -l
+    3  whoami
+    4  cd ~/
+    5  pwd
+    6  ls
+    7  aws version
+    8  aws --version
+    9  python3 version
+   10  python version
+   11  python -v
+   12  python --version
+   13  python3 --version
+   14  cat /etc/os-release
+   15  yum upate
+   16  yum --update
+   17  yum install update
+   18  yum install python3
+   19  pip3 install awscli --upgarde --user
+   20  pip3 install awscli --upgrade --user
+   21  aws version
+   22  aws --version
+   23  pip3 -m awscli --version
+   24  python3 -m awscli --version
+   25  alias awscli="python3 -m awcli"
+   26  alias
+   27  alias
+   28  awscli --version
+   29  awscli --version
+   30* alias awscli="python3 -m a
+   31  awscli --version
+   32  awscli ec2 describe-instances
+   33  aws configure
+   34  awscli ec2 describe-instances
+   35  ifconfig
+   36  awscli --version
+   37  awscli sts get-caller-identity
+   38  awscli sts get-session-token
+   39* awscli sts get-access-key-info --
+   40  ls
+   41  ls
+   42  ls -la
+   43  cd .aws
+   44  ls
+   45  cat config 
+   46  cd ..
+   47  awscli sts assume-role --role-arn arn:aws:iam::205172468134:role/eks-role --duration-seconds 28800 > acesso.json
+   48  awscli sts assume-role --role-arn arn:aws:iam::205172468134:role/eks-role --role-session-name eks --duration-seconds 28800 > acesso.json
+   49  cat acesso.json 
+   50  date te
+   51  date
+   52  vim acesso.json 
+   53  awscli sts get-session-token
+   54  cat .aws/credentials 
+   55  awscli sts get-caller-identity
+   56  awscli configure
+   57  aws sts get-caller-identity
+   58  awscli sts get-access-key-info --access-key-id ASIAS7RJ3NGTDV6LVRUT
+   59  cat acesso.json 
+   60  cat .aws/credentials 
+   61  export
+   62  pwd
+   63  ls -la
+   64  cat .bash_profile 
+   65  cat .bashrc 
+   66  curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
+   67  sudo mv /tmp/eksctl /usr/local/bin
+   68  pwd
+   69  ln -s /usr/local/bin/eksctl eksctl
+   70  ls -la
+   71  ./eksctl version
+   72  history > pre-install-tools-linux.txt

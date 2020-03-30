@@ -1,0 +1,23 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+metadata:
+  name: eks3
+  region: us-east-1
+
+managedNodeGroups:
+  - name: ng3
+    instanceType: t3.medium
+    minSize: 1
+    desiredCapacity: 1
+    maxSize: 1
+    availabilityZones: ["us-east-1a", "us-east-1c"]
+    ssh:
+      publicKeyName: 'ec2-test-eks'
+      allow: true
+    volumeSize: 20
+    labels: {role: worker}
+    iam:
+      instanceRoleARN: "arn:aws:iam::205172468134:role/ec2-role"
+#      withAddonPolicies:
+#      externalDNS: true
+#      certManager: true
